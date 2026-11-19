@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecobazar</title>
+    <meta name="title" content="Ecobazar">
+    <meta name="description" content="Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime.">
+    <meta name="keywords" content="fruits, vegetable, dairy product, Home decor products, medicine">
+    <meta name="author" content="John Doe">
+    <link rel="shortct icon" href="./assets/img/favIcon.png" type="image/x-icon">
+    
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- css link end-->
+
+</head>
+<body>
+    <header>
+        <div class="headerTop">
+           <div class="container">
+            <div class="row">
+                  <div class="col-lg-9 headerTopLeft d-flex justify-content-center justify-content-lg-start">
+                <div class="d-flex address">
+                    <span class="iconifyIcon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+	<path d="M0 0h48v48H0z" fill="none" />
+	<path fill="currentColor" d="M24 4c9.389 0 17 7.611 17 17a16.92 16.92 0 0 1-4 10.955l-.022.026l-.016.019H37L26.911 42.709a4 4 0 0 1-5.822 0L11 32h.038l-.017-.02l-.021-.025A16.92 16.92 0 0 1 7 21c0-9.389 7.611-17 17-17m0 2.5C15.992 6.5 9.5 12.992 9.5 21c0 3.58 1.294 6.852 3.443 9.382l.308.362l9.657 10.251a1.5 1.5 0 0 0 2.184 0l9.657-10.25l.308-.363A14.43 14.43 0 0 0 38.5 21c0-8.008-6.492-14.5-14.5-14.5m0 7.5a7 7 0 1 1 0 14a7 7 0 0 1 0-14m0 2.5a4.5 4.5 0 1 0 0 9a4.5 4.5 0 0 0 0-9" />
+</svg>
+                </span>
+                <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+                </div>        
+            </div>
+            <div class="col-12 col-lg-3 headerTopRight d-none d-lg-block justify-content-lg-end">
+                <ul>
+                    <li>
+                        <select>
+                            <option value="Eng">Eng</option>
+                            <option value="BN">BN</option>
+                        </select>
+                    </li>
+                     <li>
+                        <select>
+                            <option value="USD">USD</option>
+                            <option value="TK">BDT</option>
+                        </select>
+                    </li>
+                    <li class="divider mx-2">|</li>
+                    <li><a href="#">Sign in /</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </div>
+            </div>         
+           </div>
+        </div>
+        <div class="headerMiddle">
+            <div class="container">
+                <div class="row">
+                    <div class="headerLogo col-lg-3 order-1 col-10">
+                        <a href="#"><img src="./assets/img/Logo.png" alt="Ecobazar"></a>
+                    </div>
+                    <div class="searchBar col-lg-6 order-3 order-lg-2 col-12 my-2 my-lg-0 ">
+                        <div class="searchField">
+                            <form action="">
+                            <div class="searchInput">
+                                <input type="text" placeholder="Search">
+                            <span class="iconifyIcon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m15.879 15.879l4.242 4.242M18 10.5a7.5 7.5 0 1 1-15 0a7.5 7.5 0 0 1 15 0Z" />
+</svg>
+</span>
+                            </div>
+                            <button>Search</button>
+                        </form>
+                        </div>
+                    </div>
+                    <div class="carts col-lg-3 order-2 order-lg-3 col-2">
+                        <ul class="d-flex gap-2 ">
+                            <li class="d-none d-lg-block">
+                                <a href="./wishlist.html">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="m8.962 18.91l.464-.588zM12 5.5l-.54.52a.75.75 0 0 0 1.08 0zm3.038 13.41l.465.59zm-5.612-.588C7.91 17.127 6.253 15.96 4.938 14.48C3.65 13.028 2.75 11.335 2.75 9.137h-1.5c0 2.666 1.11 4.7 2.567 6.339c1.43 1.61 3.254 2.9 4.68 4.024zM2.75 9.137c0-2.15 1.215-3.954 2.874-4.713c1.612-.737 3.778-.541 5.836 1.597l1.08-1.04C10.1 2.444 7.264 2.025 5 3.06C2.786 4.073 1.25 6.425 1.25 9.137zM8.497 19.5c.513.404 1.063.834 1.62 1.16s1.193.59 1.883.59v-1.5c-.31 0-.674-.12-1.126-.385c-.453-.264-.922-.628-1.448-1.043zm7.006 0c1.426-1.125 3.25-2.413 4.68-4.024c1.457-1.64 2.567-3.673 2.567-6.339h-1.5c0 2.198-.9 3.891-2.188 5.343c-1.315 1.48-2.972 2.647-4.488 3.842zM22.75 9.137c0-2.712-1.535-5.064-3.75-6.077c-2.264-1.035-5.098-.616-7.54 1.92l1.08 1.04c2.058-2.137 4.224-2.333 5.836-1.596c1.659.759 2.874 2.562 2.874 4.713zm-8.176 9.185c-.526.415-.995.779-1.448 1.043s-.816.385-1.126.385v1.5c.69 0 1.326-.265 1.883-.59c.558-.326 1.107-.756 1.62-1.16z" />
+                </svg>
+                </span></a>
+                </li>
+                <li class="cardDevider d-none d-lg-block">|</li>
+                <li>
+                    <div class="d-flex gap-2">
+                        <div class="cartIcon d-none d-lg-block">
+                           <a href="#">
+                             <span><svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+                           </a>
+                           <span class="cartQty">2</span>
+                        </div>
+                        <div class="cartText d-none d-lg-block">
+                            <p>Shopping cart:</p>
+                            <span>$57.00</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="menuBar d-lg-none">
+                   <!-- Offcanvas start -->
+                    <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h10M4 12h16M7 12h13M4 18h10" />
+</svg>
+                    </a>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <img src="./assets/img/Logo.png" alt="">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   <ul>
+    <li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M3 5h18v2H3zm0 6h18v2H3zm0 6h18v2H3z" />
+</svg>
+</span>All</a></li>
+    <li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2M568 868H456V664h112zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7l23.1 23.1L882 542.3z" />
+</svg>
+</span>home</a></li>
+<li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M11 21v-2h8v-7.1q0-2.925-2.037-4.962T12 4.9T7.038 6.938T5 11.9V18H4q-.825 0-1.412-.587T2 16v-2q0-.525.263-.987T3 12.275l.075-1.325q.2-1.7.988-3.15t1.975-2.525T8.762 3.6T12 3t3.225.6t2.725 1.663t1.975 2.512t1 3.15l.075 1.3q.475.225.738.675t.262.95v2.3q0 .5-.262.95t-.738.675V19q0 .825-.587 1.413T19 21zm-2.713-7.287Q8 13.425 8 13t.288-.712T9 12t.713.288T10 13t-.288.713T9 14t-.712-.288m6 0Q14 13.426 14 13t.288-.712T15 12t.713.288T16 13t-.288.713T15 14t-.712-.288M6.025 12.45Q5.85 9.8 7.625 7.9T12.05 6q2.225 0 3.913 1.413T18 11.025Q15.725 11 13.813 9.8t-2.938-3.25q-.4 2-1.687 3.563T6.025 12.45" />
+</svg>
+</span>Help & Support</a></li>
+<li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 56 56">
+	<path d="M0 0h56v56H0z" fill="none" />
+	<path fill="currentColor" d="M46.593 9q3.438 0 5.158 1.708q1.629 1.62 1.714 4.731l.005.35v23.852q0 3.374-1.72 5.07q-1.628 1.61-4.8 1.693l-.357.005H8.877q-3.438 0-5.158-1.697q-1.629-1.61-1.714-4.72L2 39.642V15.79q0-3.396 1.72-5.093q1.628-1.608 4.8-1.692L8.877 9zM5.526 39.444q0 1.709.876 2.574q.81.798 2.27.86l.25.005l17.477-.001V31.275h-.153q-.547 1.686-1.72 3.22a16.5 16.5 0 0 1-2.672 2.759a16.7 16.7 0 0 1-3.044 2.004q-1.544.777-2.793.975q-.94.13-1.478-.417q-.537-.547-.537-1.27q0-.789.46-1.281q.403-.432 1.09-.552l.203-.029q1.14-.13 2.43-.843a15 15 0 0 0 2.509-1.752a18 18 0 0 0 2.168-2.19q.833-1.006 1.307-1.904l.127-.254H5.526zm44.417-9.703h-18.77q.483 1.008 1.435 2.158a18 18 0 0 0 2.169 2.19q1.215 1.041 2.496 1.752q1.14.632 2.166.807l.255.036q.854.088 1.314.58q.46.494.46 1.282q0 .723-.537 1.27q-.536.547-1.478.417q-1.27-.198-2.804-.975a17 17 0 0 1-3.033-2.004q-1.5-1.227-2.672-2.76a11 11 0 0 1-1.59-2.847l-.13-.372h-.175v11.607h17.5q1.62 0 2.508-.864q.819-.8.882-2.316l.005-.258zm-3.149-17.21l-.245-.005h-17.5v7.513a9.4 9.4 0 0 1 1.763-2.42a7.7 7.7 0 0 1 2.29-1.566a6.4 6.4 0 0 1 2.605-.548q2.366 0 3.932 1.566t1.566 3.975q0 1.38-.591 2.574a7 7 0 0 1-1.654 2.135a9.6 9.6 0 0 1-2.119 1.414l-.345.163h13.447V15.987q0-1.709-.886-2.585q-.819-.81-2.263-.87M26.4 12.526H8.921q-1.643 0-2.519.876q-.81.81-.87 2.327l-.006.258v11.345h13.426a9.9 9.9 0 0 1-2.442-1.577a7.1 7.1 0 0 1-1.664-2.135a5.6 5.6 0 0 1-.603-2.574q0-2.409 1.577-3.975q1.578-1.566 3.92-1.566q1.38 0 2.629.548a7.7 7.7 0 0 1 2.289 1.566a8.8 8.8 0 0 1 1.56 2.075l.181.345zm-6.483 6.089q-1.182 0-1.884.712q-.7.712-.7 1.96q0 1.03.635 2.048q.634 1.018 1.752 1.84a9.7 9.7 0 0 0 2.56 1.325q1.266.44 2.664.496l.403.008h.657v-.614a9.1 9.1 0 0 0-.482-2.978a8.4 8.4 0 0 0-1.336-2.486q-.855-1.084-1.95-1.698a4.7 4.7 0 0 0-2.321-.613m15.616 0a4.64 4.64 0 0 0-2.3.613q-1.095.614-1.949 1.698a8.6 8.6 0 0 0-1.347 2.486a8.8 8.8 0 0 0-.485 2.587l-.008.391v.614h.658a9.3 9.3 0 0 0 3.088-.504a9.5 9.5 0 0 0 2.551-1.325q1.106-.822 1.742-1.84t.635-2.048q0-1.248-.69-1.96t-1.895-.712" />
+</svg>
+</span>Coupons</a></li>
+<li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048">
+	<path d="M0 0h2048v2048H0z" fill="none" />
+	<path fill="currentColor" d="M2048 384v640h-128V603l-768 768l-384-384l-675 674l-90-90l765-766l384 384l677-677h-421V384z" />
+</svg>
+</span>Sell</a></li>
+<li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z" />
+</svg>
+</span>About us</a></li>
+<li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048">
+	<path d="M0 0h2048v2048H0z" fill="none" />
+	<path fill="currentColor" d="M740 1461q65 33 117 81t90 108t57 128t20 142H896q0-79-30-149t-82-122t-123-83t-149-30q-80 0-149 30t-122 82t-83 123t-30 149H0q0-73 20-141t57-128t89-108t118-82q-74-55-115-136t-41-173q0-79 30-149t82-122t122-83t150-30q92 0 173 41t136 115q38-75 97-134t134-97q-74-55-115-136t-41-173q0-79 30-149t82-122t122-83t150-30q79 0 149 30t122 82t83 123t30 149q0 92-41 173t-115 136q65 33 117 81t90 108t57 128t20 142h-128q0-79-30-149t-82-122t-123-83t-149-30q-80 0-149 30t-122 82t-83 123t-30 149q0 92-41 173t-115 136m284-1077q0 53 20 99t55 82t81 55t100 20q53 0 99-20t82-55t55-81t20-100q0-53-20-99t-55-82t-81-55t-100-20q-53 0-99 20t-82 55t-55 81t-20 100m-768 768q0 53 20 99t55 82t81 55t100 20q53 0 99-20t82-55t55-81t20-100q0-53-20-99t-55-82t-81-55t-100-20q-53 0-99 20t-82 55t-55 81t-20 100m1024 256h768v128h-768zm0 384v-128h768v128zm0 256v-128h768v128z" />
+</svg>
+</span>Contact</a></li>
+   </ul>
+  </div>
+</div>
+<!-- Offcanvas end -->             
+                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom d-none d-lg-block">
+           <div class="container">
+            <div class="row align-items-center">
+                <div class="navList col-lg-9">
+                    <ul class="d-flex gap-4 align-items-center">
+                    <li class="CategoriesBtn d-flex align-items-center gap-2">
+                        <span class="CategoriesIcon1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M4 11h16v2H4zm0-5h16v2H4zm0 10h16v2H4z" />
+</svg>
+</span>
+                        All Categories
+                        <span class="CategoriesIcon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M18.707 8.293a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293a1 1 0 0 1 1.414 0" />
+</svg>
+</span>
+<div class="CategoryMenu">
+    <ul>
+        <li><a href="#"> <img class="CategoryListIcon" src="./assets/img/cat/fruits.png" alt=""> Fruits</a></li>
+        <li><a href="#"> <img class="CategoryListIcon" src="./assets/img/cat/vegetable.png" alt=""> Vegetable</a></li>
+        <li><a href="#"> <img class="CategoryListIcon" src="./assets/img/cat/fish.png" alt=""> Fish</a></li>
+        <li><a href="#"> <img class="CategoryListIcon" src="./assets/img/cat/meat.png" alt=""> Meat</a></li>
+        <li><a href="#"> <img class="CategoryListIcon" src="./assets/img/cat/dairy.png" alt=""> Dairy Product</a></li>
+        
+    </ul>
+</div>
+                    </li>
+                    <li><a href="./index.html" class="active">Home</a></li>
+                    <li><a href="./product-details.html">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                </div>
+                <div class="tel col-lg-3">
+                    <a href="tel:+8801555-0114">
+                        <span><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M13.811 1.58928C15.2944 1.98824 16.6469 2.76995 17.7331 3.85612C18.8192 4.94229 19.601 6.29479 19.9999 7.77815" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12.9058 4.97115C13.7956 5.21053 14.6069 5.67949 15.2585 6.33106C15.91 6.98263 16.379 7.79395 16.6184 8.68377" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M6.49 10.866C7.39738 12.7217 8.9013 14.2192 10.7609 15.1185C10.897 15.183 11.0477 15.2109 11.1979 15.1994C11.3481 15.1879 11.4928 15.1374 11.6175 15.0529L14.3562 13.2277C14.4772 13.1469 14.6164 13.0975 14.7612 13.0841C14.9061 13.0707 15.052 13.0935 15.1857 13.1507L20.3089 15.3469C20.4829 15.4208 20.6282 15.5493 20.7229 15.7129C20.8176 15.8766 20.8565 16.0666 20.8339 16.2543C20.6717 17.5212 20.0534 18.6857 19.0946 19.5296C18.1358 20.3736 16.9023 20.8392 15.625 20.8393C11.6799 20.8393 7.89639 19.2721 5.10679 16.4825C2.31718 13.6929 0.75 9.90937 0.75 5.96428C0.750118 4.68707 1.21574 3.45369 2.05971 2.49505C2.90367 1.53641 4.0681 0.918242 5.335 0.756277C5.52271 0.733639 5.71269 0.772597 5.87634 0.867284C6.03999 0.96197 6.16845 1.10726 6.24238 1.28128L8.44037 6.40878C8.4969 6.54126 8.51985 6.68565 8.50718 6.82913C8.49451 6.97261 8.44662 7.11075 8.36775 7.23128L6.54775 10.012C6.46515 10.1373 6.41641 10.2817 6.40629 10.4314C6.39617 10.5811 6.42501 10.7308 6.49 10.866V10.866Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg></span>
+(219) 555-0114
+                    </a>
+                </div>
+            </div>
+           </div>
+        </div>
+    </header>
+    <!-- main section srtart -->
+    <main>
+        <!-- hero section start -->
+         <section id="banner">
+            <div class="container position-relative">
+                
+                <div class="heroSlider">
+  <div class="slide">
+    <div class="row">
+                    <div class="bannerImg col-lg-6">
+                        <img src="./assets/img/bannerimg.png" alt="bannerImg">
+                        <div class="offerCard">
+                            <P><span>70%</span>off</P>
+                        </div>
+                    </div>
+                    <div class="bannerText col-lg-6">
+                        <span class="greetings">Welcome to shopery</span>
+                        <h2>Fresh & Healthy Organic Food</h2>
+                        <p>Free shipping on all your order. we deliver, you enjoy</p>
+                        <a href="#" class="shopBtn">Shop now <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span></a>
+                    </div>
+                </div>
+            </div>
+  <div class="slide">
+    <div class="row">
+                    <div class="bannerImg col-lg-6">
+                        <img src="./assets/img/bnrImg3.png" alt="bannerImg">
+                    </div>
+                    <div class="bannerText col-lg-6">
+                        <span class="greetings">Welcome to shopery</span>
+                        <h2>Fresh & Healthy Organic Food</h2>
+                        <p>Free shipping on all your order. we deliver, you enjoy</p>
+                        <a href="#" class="shopBtn">Shop now <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span></a>
+                    </div>
+                </div>
+            </div>
+  <div class="slide">
+    <div class="row">
+                    <div class="bannerImg col-lg-6">
+                        <img src="./assets/img/bannerImg 2.png" alt="bannerImg">
+                    </div>
+                    <div class="bannerText col-lg-6">
+                        <span class="greetings">Welcome to shopery</span>
+                        <h2>Fresh & Healthy Organic Food</h2>
+                        <p>Free shipping on all your order. we deliver, you enjoy</p>
+                        <a href="#" class="shopBtn">Shop now <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span>
+</a>
+                    </div>
+                </div>
+            </div>
+</div>
+<div class="leftArrow">
+    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16" />
+</svg>
+</span>
+</div>
+<div class="rightArrow">
+    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" />
+</svg>
+</span>
+</div>
+                
+            </div>
+         </section>
+        <!-- hero section end -->
+         <!-- introduction section start-->
+         <!-- introduction section end-->
+<!-- method section start -->
+ <section id="method">
+    <div class="container">
+        <div class="row g-2">
+            <div class="methodeInfo methodeInfo-1 active col-6 col-lg-3">
+                <img src="./assets/img/delivery-truck 1 (1).png" alt="">
+                <h3>Free Shipping</h3>
+                <p>Free shipping with discount</p>
+            </div>
+            <div class="methodeInfo col-6 col-lg-3">
+                <img src="./assets/img/headphones 1.png" alt="">
+                <h3>Free Shipping</h3>
+                <p>Free shipping with discount</p>
+            </div>
+            <div class="methodeInfo col-6 col-lg-3">
+                <img src="./assets/img/shopping-bag.png" alt="">
+                <h3>Free Shipping</h3>
+                <p>Free shipping with discount</p>
+            </div>
+            <div class="methodeInfo methodeInfo-2 col-6 col-lg-3">
+                <img src="./assets/img/package.png" alt="">
+                <h3>Free Shipping</h3>
+                <p>Free shipping with discount</p>
+            </div>
+        </div>
+    </div>
+ </section>
+
+<!-- method section end -->
+<!-- ProductsDetails section start -->
+ <section id="ProductsDetails">
+    <h2>Introducing Our Products</h2>
+    <div class="d-flex">
+        <ul class="listItem">
+            <li><a href="#"  class="active">All</a></li>
+            <li class="deVider">|</li>
+            <li><a href="#">Vegetable</a></li>
+            <li class="deVider">|</li>
+            <li><a href="#">Fruit</a></li>
+            <li class="deVider">|</li>
+            <li><a href="#">Meat & Fish</a></li>
+            <li class="deVider">|</li>
+            <li><a href="#">View All</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-6 productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/fruits/apple.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/apple2.png" alt="apple" class="img-fluid back"></a> -->
+                    <span class="sale sale1">Sale 50%</span>
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="col-lg-3 col-md-4 col-6 productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/fruits/mngo.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/mango2.webp" alt="apple" class="img-fluid back mango2"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+ <div class="col-lg-3 col-md-4 col-6 productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/fruits/tmto.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-lg-3 col-md-4 col-6 productInfo active">
+                <div class="ProductsImg">
+                    <a href="./product-details.html"><img src="./assets/img/kimchi.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-3 col-md-4 col-6 productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/fruits/grnchilli.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-lg-3 col-md-4 col-6 productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/fruits/lettuce.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+<div class="col-lg-3 col-md-4 col-6 productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/fruits/Capsicum.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="col-lg-3 col-md-4 col-6 productInfo">
+                <div class="ProductsImg">
+                    <a href="./product-details.html"><img src="./assets/img/fruits/clflr.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            
+
+
+
+                </div>
+            </div>
+
+
+        </section>
+<!-- ProductsDetails section end -->
+ <!-- dairy ection start-->
+ <section id="dairy">
+     <div class="container">
+        <div class="row">
+            <div class="dairyImg col-lg-4 col-12">
+                <img src="./assets/img/milk.png" alt="">
+                <div class="dairyPdct">
+                    <h3>100% Fresh <span>Cow Milk</span></h3>
+                    <p>Starting at <span class="price">$14.99</span></p>
+                    <a href="#" class="shopBtn">Shop Now <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span></a>
+                </div>
+            </div>
+
+
+            <div class="dairyImg col-lg-4 col-12 dairyImgMiddle">
+                <img src="./assets/img/dairy2.png" alt="">
+                <div class="dairyPdct dairyPdctMiddle">
+                    <p>Drink Sale</p>
+                    <h3>Water & <span>Soft Drink</span></h3>
+                    <a href="#" class="shopBtn">Shop Now <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span></a>
+                </div>
+            </div>
+
+
+            <div class="dairyImg  col-lg-4 col-12 dairyImgEnd">
+                <img src="./assets/img/dry3.png" alt="">
+                <div class="dairyPdct">
+                    <p>100% Organic</p>
+                    <h3>Quick <span>Breakfast</span></h3>
+                    <a href="#" class="shopBtn">Shop Now <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span></a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+ </section>
+ <!-- dairy ection end-->
+  <!-- Best Deal start -->
+   <section id="bestDeal">
+    <div class="container">
+        <p>Best Deals</p>
+        <h2>Our Special Products Deal of the Month</h2>
+        <ul class="timer" data-date="2026/09/31">
+            <li><p>
+                <span class="days">00</span> 
+                Days</p>
+            </li>
+            <li><p><span class="hours">02</span> Hours</p></li>
+            <li><p><span class="mins">18</span> Mins</p></li>
+            <li><p><span class="secs">46</span> Secs</p></li>
+        </ul>
+         <a href="#" class="shopBtn">Shop now <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span>
+</a>
+    </div>
+
+   </section>
+  <!-- Best Deal end -->
+<!-- featurs start -->
+ <section id="featurs">
+    <div class="container">
+        <div class="featurSlider">
+            <div class="productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/mix veg.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/apple2.png" alt="apple" class="img-fluid back"></a> -->
+                    <span class="sale">Sale 50%</span>
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99 <span>$20.99</span></strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/tunaFish.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/mango2.webp" alt="apple" class="img-fluid back mango2"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+ <div class="productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/graps.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/avocado.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/fish.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/chicken.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="productInfo">
+                <div class="ProductsImg">
+                    <a href="#"><img src="./assets/img/beef.png" alt="apple" class="img-fluid front"></a>
+                    <!-- <a href="#"><img src="assets/img/fruits/tmt2.png" alt="apple" class="img-fluid back " width="200px"></a> -->
+                    <ul class="quickLinks">
+                        <li><a href="#" class="trans1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M923 283.6a260 260 0 0 0-56.9-82.8a264.4 264.4 0 0 0-84-55.5A265.3 265.3 0 0 0 679.7 125c-49.3 0-97.4 13.5-139.2 39q-15 9.15-28.5 20.1q-13.5-10.95-28.5-20.1c-41.8-25.5-89.9-39-139.2-39c-35.5 0-69.9 6.8-102.4 20.3c-31.4 13-59.7 31.7-84 55.5a258.4 258.4 0 0 0-56.9 82.8c-13.9 32.3-21 66.6-21 101.9c0 33.3 6.8 68 20.3 103.3c11.3 29.5 27.5 60.1 48.2 91c32.8 48.9 77.9 99.9 133.9 151.6c92.8 85.7 184.7 144.9 188.6 147.3l23.7 15.2c10.5 6.7 24 6.7 34.5 0l23.7-15.2c3.9-2.5 95.7-61.6 188.6-147.3c56-51.7 101.1-102.7 133.9-151.6c20.7-30.9 37-61.5 48.2-91c13.5-35.3 20.3-70 20.3-103.3c.1-35.3-7-69.6-20.9-101.9M512 814.8S156 586.7 156 385.5C156 283.6 240.3 201 344.3 201c73.1 0 136.5 40.8 167.7 100.4C543.2 241.8 606.6 201 679.7 201c104 0 188.3 82.6 188.3 184.5c0 201.2-356 429.3-356 429.3" />
+</svg>
+</a></li>
+                        <li><a href="#" class="trans2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M21.257 10.962c.474.62.474 1.457 0 2.076C19.764 14.987 16.182 19 12 19s-7.764-4.013-9.257-5.962a1.69 1.69 0 0 1 0-2.076C4.236 9.013 7.818 5 12 5s7.764 4.013 9.257 5.962" />
+		<circle cx="12" cy="12" r="3" />
+	</g>
+</svg>
+</a></li>
+                    </ul>
+                </div>
+                <div class="ProductsText">
+                    <a href="#">Green Apple</a>
+                    <strong>$14.99</strong>
+                    <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="fullStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <span class="halfStar"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="m908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5c-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1l-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2c17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9l183.7-179.1c5-4.9 8.3-11.3 9.3-18.3c2.7-17.5-9.5-33.7-27-36.3" />
+            </svg>
+            </span>
+            <a href="#" class="addToCart">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+	<path d="M0 0h256v256H0z" fill="none" />
+	<g fill="none" stroke-width="16">
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 64,80 h 128 c 16,0 29.33333,16 32,32 l 16,96 c 2.66807,16.00842 -16,32 -32,32 H 48 C 32,240 13.33193,224.00842 16,208 L 32,112 C 34.666667,96 48,80 64,80 Z" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 80,112 V 63.814079" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m 176,64 v 48" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 19.090159,191.31828 H 236.90984" />
+		<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M 176,64 C 176,48 166.70076,30.94703 151.90703,22.405869 137.1133,13.86471 118.88668,13.86471 104.09296,22.40587 89.299233,30.947031 80.000002,48 80,64" />
+		<rect width="80" height="16" x="16" y="240" />
+	</g>
+</svg>
+</span>
+            </a>
+                </div>
+            </div>
+
+        </div>
+
+              
+        <div class="leftArrow">
+    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16" />
+</svg>
+</span>
+</div>
+<div class="rightArrow">
+    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" />
+</svg>
+</span>
+</div>
+    </div>
+
+ </section>
+<!-- featurs end -->
+
+  
+  <!-- clients section start  -->
+    <section id="client">
+    <div class="container">
+        <h3>What our Clients Says</h3>
+        <div class="clientSlider">
+            <div class="clientSlide">
+                <div class="clientText">
+                    <img src="./assets/img/clints.png" alt="">
+                    <p>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</p>
+                </div>
+                <div class="clientimg">
+                    <img src="./assets/img/prsn1.png" alt="">
+                <p>Jenny Wilson</p>
+                <span>Customer</span>
+                </div>
+            </div>
+
+
+
+            <div class="clientSlide">
+                <div class="clientText">
+                    <img src="./assets/img/clints.png" alt="">
+                    <p>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</p>
+                </div>
+                <div class="clientimg">
+                    <img src="./assets/img/prsn2.png" alt="">
+                <p>Jenny Wilson</p>
+                <span>Customer</span>
+                </div>
+            </div>
+
+
+            <div class="clientSlide">
+                <div class="clientText">
+                    <img src="./assets/img/clints.png" alt="">
+                    <p>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</p>
+                </div>
+                <div class="clientimg">
+                    <img src="./assets/img/prsn3.png" alt="">
+                <p>Jenny Wilson</p>
+                <span>Customer</span>
+                </div>
+            </div>
+
+
+
+
+             <div class="clientSlide">
+                <div class="clientText">
+                    <img src="./assets/img/clints.png" alt="">
+                    <p>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</p>
+                </div>
+                <div class="clientimg">
+                   <img src="./assets/img/prsn2.png" alt="">
+                <p>Jenny Wilson</p>
+                <span>Customer</span>
+                </div>
+            </div>
+
+
+
+
+
+
+             <div class="clientSlide">
+                <div class="clientText">
+                    <img src="./assets/img/clints.png" alt="">
+                    <p>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</p>
+                </div>
+                <div class="clientimg">
+                    <img src="./assets/img/prsn3.png" alt="">
+
+                <p>Jenny Wilson</p>
+                <span>Customer</span>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="leftArrow">
+    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16" />
+</svg>
+</span>
+</div>
+<div class="rightArrow">
+    <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" />
+</svg>
+</span>
+</div>
+    </div>
+   </section> 
+
+  <!-- clients section end  -->
+ <!-- latest News section start -->
+  <section id="latestNews">
+   <h2>Latest News</h2>
+   <div class="container">
+        <div class="d-flex">
+        <div class="latestNewsCard">
+            <div class="latestNewsCardTop">
+                <img src="./assets/img/latest news1.png" alt="">
+                <div class="latestNewsCardDate">
+                <p><span>23</span>Jan</p>
+            </div>
+            </div>
+        <h3>Curabitur porttitor orci eget neque accumsan venenatis.</h3>
+        <p>Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.</p>
+        <a href="#">Read More <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span></a>
+    </div>
+
+    <div class="latestNewsCard">
+            <div class="latestNewsCardTop">
+                <img src="./assets/img/latestNews2.png" alt="">
+                <div class="latestNewsCardDate">
+                <p><span>23</span>Jan</p>
+            </div>
+            </div>
+
+        <h3>Curabitur porttitor orci eget neque accumsan venenatis.</h3>
+        <p>Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.</p>
+        <a href="#">Read More <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span></a>
+    </div>
+
+    <div class="latestNewsCard">
+           <div class="latestNewsCardTop">
+                <img src="./assets/img/latestnews3.png" alt="">
+                <div class="latestNewsCardDate">
+                <p><span>23</span>Jan</p>
+            </div>
+            </div>
+        <h3>Curabitur porttitor orci eget neque accumsan venenatis.</h3>
+        <p>Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.</p>
+        <a href="#">Read More <span class="iconify"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z" clip-rule="evenodd" />
+</svg>
+</span></a>
+    </div>
+    </div>
+   </div>
+  </section>
+  
+ <!-- latest News section end -->
+  <!-- video  section start-->
+
+  <!-- position section start -->
+  <section id="position">
+    <hr>
+    <div class="container">
+        <div class="d-flex mx-2 align-items-center justify-content-center">
+            <div class="logo col-lg-3">
+                        <a href="#"><img src="./assets/img/Logo.png" alt="Ecobazar"></a>
+                    </div>
+                    <div class="subscribe col-lg-5">
+                        <h3>Subcribe our Newsletter</h3>
+                        <p>Pellentesque eu nibh eget mauris congue mattis matti.</p>
+                    </div>
+            
+                        <div class="subscribeForm col-lg-4 ">
+                            <form action="" class="d-flex">
+                                <input type="text" placeholder="Your email address">
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+    </div>
+    </div>
+  </section>
+  <!-- position section end -->
+    </main>
+    <!-- main section end -->
+    <!-- footer section start -->
+     <!-- smfooter section start-->
+    
+      <div class="smFooter d-block d-lg-none ">
+        <div class="container">
+            <div class="d-flex justify-content-around">
+                <div class="smNavMMenu">
+                    <a href="#">
+                        <img src="./assets/img/smFooter/home.svg" alt="">
+                    <p>Home</p>
+                    </a>
+                </div>
+                <div class="smNavMMenu">
+                    <a href="#">
+                        <img src="./assets/img/smFooter/account.svg" alt="">
+                    <p>Account</p>
+                    </a>
+                </div>
+                <div class="smNavMMenu">
+                    <a href="#">
+                        <img src="./assets/img/smFooter/shop.svg" alt="">
+                    <p>Shop</p>
+                    </a>
+                </div>
+                <div class="smNavMMenu">
+                    <a href="#">
+                        <img src="./assets/img/smFooter/wish.svg" alt="">
+                    <p>Wishlist</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+     <!-- smfooter section end-->
+
+
+
+
+
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="d-flex gap-4 align-items-start justify-content-between">
+                    <div class="about">
+                        <h3>About Shopery</h3>
+                        <p>
+                            Morbi cursus porttitor enim lobortis molestie. <br> Duis gravida turpis dui, eget bibendum magna <br> congue nec.
+                        </p>
+                        <p><span>(219) 555-0114</span>  or  <span>Proxy@gmail.com</span></p>
+                    </div>
+                    <div class="myAccount">
+                        <h3>My Account</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#" class="active">Shoping Cart</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </div>
+                    <div class="myAccount">
+                        <h3>Helps</h3>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Faqs</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </div>
+                    <div class="myAccount">
+                        <h3>Proxy</h3>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Faqs</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </div>
+                    <div class="instagram ">
+                    <h3>Instagram</h3>
+                        <div class="instaImgTop">
+                            <div class="d-flex">
+                                <img src="./assets/img/insta1.png" alt="">
+                                <img src="./assets/img/insta2.png" alt="">
+                                <img src="./assets/img/insta3.png" alt="">
+                                <img src="./assets/img/insta4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="instaImgBottom">
+                            <div class="d-flex">
+                                <img src="./assets/img/insta5.png" alt="">
+                                <img src="./assets/img/insta6.png" alt="">
+                                <img src="./assets/img/insta7.png" alt="">
+                                <img src="./assets/img/insta8.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section end -->
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.countdown.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

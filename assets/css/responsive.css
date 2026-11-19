@@ -1,0 +1,91 @@
+@media (max-width: 768px){
+    #banner .bannerImg .offerCard{
+        width: 80px;
+	height: 80px;
+    top: 0;
+    right: 0;
+    }
+   #ProductsDetails .listItem{
+    gap: 15px;
+   }
+    #ProductsDetails .listItem li a{
+    font-size: 12px;
+    }
+    #ProductsDetails .listItem .deVider{
+        display: none;
+    }
+    #ProductsDetails{
+        position: static;
+        z-index: auto;
+    }
+       #ProductsDetails h2{
+        font-size: 30px;
+       }
+        #ProductsDetails{
+	
+	padding: 10px 0;
+    margin: 50px 0 40px;
+}
+#ProductsDetails h2{
+	padding: 15px 0 15px;
+font-size: 30px;
+
+}
+
+       #method{
+        position:static ;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: auto;
+        	margin: 80px 0;
+	position: relative;
+    margin-bottom: 0px;
+       }
+       #method{
+	margin: 20px 0 10px;
+}
+        .methodeInfo{
+            
+        padding: 10px 10px !important;
+        width: 255px;
+        margin-right: 5px;
+       }
+       .methodeInfo-1{
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+.methodeInfo-2{
+	border-top-right-radius: 0!important;
+	border-bottom-right-radius: 0!important;
+}
+#dairy .dairyImg {
+	margin-bottom: 20px;
+}
+#dairy{
+    align-items: center;
+    justify-content: center;
+}
+   #footer {
+        padding: 60px 0;
+    }
+    #footer .d-flex {
+        justify-content: space-between;
+    }
+    #footer .about {
+        flex: 1 1 100%; 
+    }
+    #footer .myAccount,
+    #footer .instagram {
+        flex: 1 1 45%; 
+    }
+    #footer h3{
+        font-size: 9px;
+    }
+      #footer .myAccount ul li a{
+        font-size: 8px;
+      }
+
+
+}
+
+      
